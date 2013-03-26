@@ -5,7 +5,7 @@ Vagrant::Config.run do |config|
   config.vm.forward_port 80, 8081
 
   ## For masterless, mount your salt file root
-  config.vm.share_folder("django-cms-demo", "/home/vagrant/mysite.com/src/mysite", ".",:nfs => true)
+  config.vm.share_folder("django-cms-demo", "/home/vagrant/mysite.com/mysite", ".",:nfs => true)
 
   # Host-only network required to use NFS shared folders
   config.vm.network :hostonly, "2.3.4.10"
