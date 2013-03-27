@@ -10,5 +10,5 @@ base:
     - memcached
     - mysite
 
-'vagrant-demo*':
+  'vagrant-demo*':
     - mysite.vagrant
