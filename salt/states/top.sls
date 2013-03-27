@@ -9,3 +9,6 @@ base:
     - redis
     - memcached
     - mysite
+
+'vagrant-demo*':
+    - mysite.vagrant
